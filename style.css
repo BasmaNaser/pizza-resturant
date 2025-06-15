@@ -10,7 +10,7 @@
 
 header {
     height: 100vh;
-    background-image: url("/home_bg.jpeg");
+    background-image: "home_bg.jpeg";
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -135,7 +135,7 @@ header {
 }
 
 #Offers {
-    background-image: url(/offer-background.jpg);
+    background-image: url(offer-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -379,7 +379,7 @@ header {
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
-    background-image: url(/daytime_bg.jpeg);
+    background-image: url(daytime_bg.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
