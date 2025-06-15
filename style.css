@@ -2,15 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    /* text-transform: capitalize;
-    text-decoration: none;
-    color:white; */
     scroll-behavior: smooth;
 }
 
 header {
     height: 100vh;
-    background-image: "home_bg.jpeg";
+    background-image: url("home_bg.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -190,8 +187,6 @@ header {
     position: relative;
 }
 
-
-
 #About .content .title .btn a:hover {
     background-color: orange;
     border: 1px solid orange;
@@ -329,7 +324,6 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /* background-color: blue; */
     border-radius: 8px;
     box-shadow: 0px 1px 15px #928d8d50;
     padding: 3px 8px;
@@ -357,7 +351,6 @@ header {
     transition: .5s ease-in-out;
     transition-behavior: inherit;
 }
-
 #Gallery .container .btn a:hover {
     color: #fff;
     background-color: transparent;
@@ -379,7 +372,7 @@ header {
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
-    background-image: url(daytime_bg.jpeg);
+    background-image: url("daytime_bg.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -405,12 +398,7 @@ header {
 }
 
 #Gallery #food-Gallery {
-    background-image: url(/offer-background.jpg);
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap; */
+    background-image: url("offer-background.jpg");
     padding: 30px 0;
 }
 
@@ -439,7 +427,7 @@ header {
 }
 
 #Contact footer {
-    background-image: url(/offer-background.jpg);
+    background-image: url("offer-background.jpg");
     text-align: center;
     font-size: 18px;
     color: #ffffff96;
@@ -469,10 +457,12 @@ header {
 #Contact .container .content div {
     margin: 25px 10px;
 }
-#Contact .container .content .contact-info .data p i{
-font-size: 15px;
-color:#383848
+
+#Contact .container .content .contact-info .data p i {
+    font-size: 15px;
+    color: #383848;
 }
+
 #Contact .container .content .contact-form form input,
 button,
 textarea {
@@ -486,7 +476,7 @@ textarea {
     background-color: white;
     padding-left: 6px;
     text-align: start;
-   box-shadow: 0 0 20px #e7d0d094;
+    box-shadow: 0 0 20px #e7d0d094;
 }
 
 #Contact .container .content .contact-form form input::placeholder,
@@ -509,12 +499,14 @@ textarea::placeholder {
     font-size: 17px;
     text-transform: uppercase;
     text-align: center;
-    margin:20px auto;
+    margin: 20px auto;
     transition: .5s;
 }
-#Contact .container .content .contact-form form button:hover{
+
+#Contact .container .content .contact-form form button:hover {
     background-color: #383848;
 }
+
 #Contact .container .content .contact-info .data h3 {
     font-size: 30px;
     text-transform: uppercase;
@@ -527,7 +519,7 @@ textarea::placeholder {
     text-transform: capitalize;
     margin-bottom: 5px;
     letter-spacing: 1px;
-    color: #000000
+    color: #000000;
 }
 
 @media (max-width:1024px) and (min-width:740px) {
@@ -586,7 +578,6 @@ textarea::placeholder {
     }
 
     #Gallery .content h3 {
-
         font-size: 13px;
         color: #000000e1;
         font-weight: 550;
@@ -603,10 +594,10 @@ textarea::placeholder {
     #Gallery .content .item .about_menu p {
         font-size: 12px;
     }
-         #Contact .container .content {
-             flex-wrap: wrap;
-         }
-         
+
+    #Contact .container .content {
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width:740px) and (min-width:500px) {
