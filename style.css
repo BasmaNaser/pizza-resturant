@@ -10,7 +10,7 @@
 
 header {
     height: 100vh;
-    background-image: url("img/home_bg.jpeg");
+    background-image: url("/home_bg.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -379,7 +379,7 @@ header {
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
-    background-image: url(/img/daytime_bg.jpeg);
+    background-image: url(/daytime_bg.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -405,7 +405,7 @@ header {
 }
 
 #Gallery #food-Gallery {
-    background-image: url(/img/offer-background.jpg);
+    background-image: url(/offer-background.jpg);
     /* display: flex;
     justify-content: center;
     align-items: center;
@@ -439,7 +439,7 @@ header {
 }
 
 #Contact footer {
-    background-image: url(/img/offer-background.jpg);
+    background-image: url(/offer-background.jpg);
     text-align: center;
     font-size: 18px;
     color: #ffffff96;
